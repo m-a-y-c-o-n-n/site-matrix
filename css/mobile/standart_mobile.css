@@ -1,0 +1,14 @@
+.mobile #apresentation{
+    width: 90%;
+}
+
+
+.mobile  #apresentation h1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.mobile #apresentation h3{
+    font-size: 1rem;
+    line-height: 2rem;
+}

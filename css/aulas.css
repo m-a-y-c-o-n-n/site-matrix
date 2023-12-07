@@ -1,0 +1,49 @@
+.subtitulo{
+    color:rgb(255, 255, 255);
+
+    padding:1rem 2rem  ;
+
+    margin: 2rem 0rem 1.5rem 0rem;
+}
+
+.ul_card_large{
+    padding: .6rem 5rem .2rem;
+    font-size: 2rem;
+}
+
+.subtitulo_h6{
+    color:rgb(255, 255, 255);
+
+    padding:1rem 2rem ;
+}
+
+.lar{
+    height: fit-content;
+}
+
+.lar .card-content{
+    text-align: left;
+}
+
+.lar h2, .lar h5, .lar h6{
+    color: var(--yelow);
+    margin: 2rem 0;
+    
+}
+
+
+.lar ul li{
+    text-align: left ;
+}
+.card.card.large p{
+    max-width: 100%;
+}
+
+
+.mobile .card.large.lar{
+    height: fit-content;
+}
+
+#letras{
+    padding: .6rem 5rem .2rem;
+}

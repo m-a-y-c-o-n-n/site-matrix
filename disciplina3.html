@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+            
+        <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/list.css" />
+        <link rel="stylesheet" href="css/cards.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/standart.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+
+        <link rel="stylesheet" href="css/mobile/header_mobile.css">
+        <link rel="stylesheet" href="css/mobile/standart_mobile.css">
+        <link rel="stylesheet" href="css/mobile/cards_mobile.css">
+        <link rel="stylesheet" href="css/mobile/footer_mobile.css">
+        <link rel="stylesheet" href="css/mobile/mobile.css">
+        <link rel="stylesheet" href="css/aulas.css">
+
+        <link rel="stylesheet" href="css/images.css">
+
+        <title>Projeto Ensino de programação</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+				<div class="header-container">
+					<div class="logo">
+						<a href="index.html"><img src="images/logo-estado.png" alt="" /></a>
+						
+					</div>
+	
+					<div class="nav-menu">	
+						<a href="tutores.html"><button>MAIS +</button></a>
+					</div>
+					<div class="nav-button">
+						<span class="material-symbols-outlined">menu</span>
+					</div>
+				</div>
+			</header>
+
+            <div class="card-container">
+                <div class="card large lar">
+                    <div class="card-content">
+                        <h2>Matemática</h2>
+
+                        <p><h5 class="subtitulo">3º ano:</h5></p>
+
+                        <p>
+                            <h5 class="subtitulo">Função logarítimica:</h5>
+                        <p>
+                            A função logarítmica de base a é definida como f (x) = loga x, com a real, positivo e a ≠ 1 O logaritmo de um número é definido como o expoente ao qual se deve elevar a base a para obter o número x, ou seja:
+                        </p>
+                        <p>    
+                     
+                        <p><div class="card-image">
+                         <img id="log" src="https://static.todamateria.com.br/upload/lo/ga/logaritmodefinicao-0.jpg" alt="">
+                        </div>
+                        </p>
+                        <P>Exemplo:
+                        </P>
+                         <p>
+                            Determine o domínio da função f (x) = log2 (x + 3).
+                                    <p> 
+                                        Para encontrar o domínio, devemos considerar que (x + 3) > 0, pela condição de existência do logaritmo. Resolvendo essa inequação, temos:
+                                    </p>
+                                    <p> x + 3 > 0 ⇒ x > - 3
+                                    </p>
+                                    <p>Assim, o domínio da função pode ser representado por:
+                                    </p>
+                                    <p> <div class="card-image">
+                                        <img id="log" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJEAAAAQCAYAAAAWNJ1eAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAABGJhU0UAAAAOJ5y/mQAAAz1JREFUeNrtWV+EVFEYH1dGsi9rjZWsZSSrh7VkZWUlkpUky1qjhyTSQw8j0UPSQ6KHZKzsy0oPaw0rSdZYcl1rJEOy0sOal9XDSCIZWWMN23fqtxync+45586Ze2fqfvzM/XP23Pud73d/3/edzWRSc2UThLfpMqTWiS0RLqfL8MdahD0OPwmrhNEuPOsY4RVhJyFfBwhfCNv4bRC+4bhMOG44Tw5zeH0e+zOECuLBeFAnlAhDwrgdxO2obBJ2cZM7Z4tymHCT8Jkw6/ilt/DiLm0Mjn+As7v4GFQkKuN4Db/XCI8IJ7AWeYNn3iXc+wcEJECMs0KaXpeMPYv4/WWXCCuKB8wRmo6/tj3Hi8AW4BPhBkiQNVAikUTMfMIg4SLhoWYODyqUc+jHBuFUD5GraRO/+4TbIZOx1DYZA4n21UC0B7gnsxGozyHLdCYj0XMo5AzhqWaOAuFZyP0ovkyByL1AprxKcVTxW8XXpzIfMiabTAeZ7YY8ixFimDu/qgnoApQ044BETL4P4nmnNXNUoXoZh77IyDQVM3mG8Z6sLjqvGNOWXayjBlKZS9lmz3kXcp+pwBMu//qa+RoRUq1IIvb31xHgxwoFidLW2/qiIlMQA5nEj78YMrYm8sVDulIZSxNfHb9sQTPmDZRgU9IhyFTNVglFEv3AeWBQC9m29Ta+qOyWYR0ZNTPwNghlr4Wo8bw410nNF3IFi+bqpUeFFCKzIsgxbuC0CyUqIlAe0lTeYVtv44tMiYKYlEi2RjXFvYq49aMrED9GXIAwC9sfYgXlC6SBgsFcJUc1URUSPYZjF229rS8ieaoJkIe3lun1BRRSqgCVupR/VR3Ba6RQFuj3BilgBOMGOiTRJHftDjrWTtr6KL7w5JlOuDsbR61sFL+XKAD3je2xnINkLXaxiJOliYqw0BcIywbzzXP7RKzoPRCxO1viutANSfelU+1OfUmKPMzXOaybh22ObZQyRvH7ztUvbRTRK12WUbFFzILMRyRjywLJVSbuWLc1hXUDBOKbhiGQcQ3KUUfLb9PWu/AlbpuGzy0gAOlN45eI+ahj+v1/Tv+beYib3wsvk0NaaKZx6StrIm6/a8JfJzf3uh2zIHUAAAD8dEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1pPkQ8L21pPjxtbz49PC9tbz48bWZlbmNlZCBjbG9zZT0ifSIgb3Blbj0ieyI+PG1yb3c+PG1pPng8L21pPjxtbz4mI3gyMjA4OzwvbW8+PG1pIG1hdGh2YXJpYW50PSJub3JtYWwiPiYjeDIxMUQ7PC9taT48bW8+LzwvbW8+PG1pPng8L21pPjxtbz4mZ3Q7PC9tbz48bW8+LTwvbW8+PG1uPjM8L21uPjwvbXJvdz48L21mZW5jZWQ+PC9tYXRoPkUFXHMAAAAASUVORK5CYII=" alt="">
+                                        </div>
+                                    </p>
+                                    <p>Gráfico da função logarítmica
+                                    </p>
+                                    <p>De uma forma geral, o gráfico da função y = loga x está localizado no I e IV quadrantes, pois a função só é definida para x > 0.
+
+                                        Além disso, a curva da função logarítmica não toca o eixo y e corta o eixo x no ponto de abscissa igual a 1, pois y = log a1 = 0, para qualquer valor de a.
+                                    </p>
+                                    <p>Abaixo, apresentamos o esboço do gráfico da função logarítmica.
+                                    </p>
+                                    <p><div class="card-image">
+                                    <img id="grafico da função" src="https://static.todamateria.com.br/upload/gr/af/graficofuncaologaritmica-cke.jpg?auto_optimize=low" alt="">
+                                    </div>
+                                   
+                                    <a href="https://www.youtube.com/watch?v=P8uxcolt8OQ&ab_channel=EquacionaComPauloPereira"> Vídeo</a>
+                                    </p>
+                            <p>
+                                <h5 class="subtitulo">Progreção Aritimética (PA):</h5>
+                                <p>
+                                    Uma progressão aritmética é uma sequência formada por termos que se diferenciam um do outro por um valor constante, que recebe o nome de razão, calculado por:
+                                    <div class="card-image">
+                                        <img id="razão da pa" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAAOCAYAAACvtwvjAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAABGJhU0UAAAAJufgqOgAAATNJREFUeNpjYICA/1AMArZAvBeIfzEMHHCDuuEHEH+DslUYBh5Q7C5YQKchsf8Tqfc1mh5s+CmJHsJmxrlBENAUuwum6Q8Q3wBigwH20FIg1oKyHZHcxjDU3QUL6MNAzMcw+AApOYzUFPmfnu6CaRAkwzJqFx08QDwJWgZSK0CoEdBUcRe1PEINsBjqllggZsPhPh8g3g+tsD8B8WwgFh4E7pIG4nAgXgjEdwd7QP+AugVUT7AAcR6WHAcqK9WgbFgFvm0QuAuUc1fhC8/BFNA30LLlBWiqxeVGJqj4j0HkriER0MZQT4CKhU1ALArEyUgpCh2wQcUvDSJ3DabwpBqohHrecRi2kgYNAAXuO2iPjWE0oGkDJIF4xyDpmg/bgA4A4udALD9I3TdsApraPTyauwsAz/S6CK3s2hwAAAHAdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5yPC9taT48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPiYjeEEwOzwvbW8+PG1vIG1hdGh2YXJpYW50PSJib2xkIj49PC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPiYjeEEwOzwvbW8+PG1zdWI+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5hPC9taT48bXJvdz48bW4gbWF0aHZhcmlhbnQ9ImJvbGQiPjI8L21uPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+JiN4QTA7PC9tbz48L21yb3c+PC9tc3ViPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+JiN4MjAxMzs8L21vPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+JiN4QTA7PC9tbz48bXN1Yj48bWkgbWF0aHZhcmlhbnQ9ImJvbGQiPmE8L21pPjxtbiBtYXRodmFyaWFudD0iYm9sZCI+MTwvbW4+PC9tc3ViPjwvbWF0aD4GtKKmAAAAAElFTkSuQmCC" alt="">
+                                        </div>
+                            </p>
+                            <P>Onde,
+
+                                r é a razão da PA,
+                                a2 é o segundo termo,
+                                a1 é o primeiro termo.</P>
+                            <p>
+                                Sendo assim, os termos de uma progressão aritmética podem ser escritos da seguinte forma:
+                                <div class="card-image">
+                                    <img id="razão da pa" src="data:image/png;base64,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YXJpYW50PSJib2xkIj4pPC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPiw8L21vPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+JiN4QTA7PC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPig8L21vPjxtc3ViPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+YTwvbWk+PG1uIG1hdGh2YXJpYW50PSJib2xkIj4xPC9tbj48L21zdWI+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4rPC9tbz48bW4gbWF0aHZhcmlhbnQ9ImJvbGQiPjI8L21uPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+cjwvbWk+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4pPC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPiw8L21vPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+JiN4QTA7PC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPig8L21vPjxtc3ViPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+YTwvbWk+PG1uIG1hdGh2YXJpYW50PSJib2xkIj4xPC9tbj48L21zdWI+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4rPC9tbz48bW4gbWF0aHZhcmlhbnQ9ImJvbGQiPjM8L21uPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+cjwvbWk+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4pPC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPiw8L21vPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+JiN4QTA7PC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPi48L21vPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+LjwvbW8+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4uPC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPiw8L21vPjxtcm93PjxtbyBtYXRodmFyaWFudD0iYm9sZCI+JiN4QTA7PC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPls8L21vPjxtc3ViPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+YTwvbWk+PG1uIG1hdGh2YXJpYW50PSJib2xkIj4xPC9tbj48L21zdWI+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4rPC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPig8L21vPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+bjwvbWk+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4tPC9tbz48bW4gbWF0aHZhcmlhbnQ9ImJvbGQiPjE8L21uPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+KTwvbW8+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5yPC9taT48L21yb3c+PG1vIG1hdGh2YXJpYW50PSJib2xkIj5dPC9tbz48L21hdGg+3BMs3gAAAABJRU5ErkJggg==" alt="">
+                                    </div>
+                                <p>Note que em uma PA de n termos a fórmula do termo geral (an) da sequência é:
+                                </p>
+                                <p>an = a1 + (n – 1) r
+                                </p>
+                                <p>Tipos de PA:
+                                </p>
+                                <p>De acordo com o valor da razão, as progressões aritméticas são classificadas em 3 tipos:
+                                </p>
+                                <p>1º Constante: quando a razão for igual a zero e os termos da PA são iguais.
+                                </p>
+                                <p>Exemplo:
+                                </p>
+                                <p>PA = (2, 2, 2, 2, 2, ...), onde r = 0
+                                <p>2º Crescente: quando a razão for maior que zero e um termo a partir do segundo é maior que o anterior.
+                                </p>
+                                <p>Exemplo:
+                                </p>
+                                <p> PA = (2, 4, 6, 8, 10, ...), onde r = 2
+                                </p>
+                                <p>3º Decrescente: quando a razão for menor que zero e um termo a partir do segundo é menor que o anterior.
+                                </p>
+                                <p>Exemplo:
+                                </p>
+                                <p>PA = (4, 2, 0, - 2, - 4, ...), onde r = - 2
+                                </p>
+                                <p>Soma dos termos de uma PA:
+                                </p>
+                                <p>A soma dos termos de uma progressão aritmética é calculada pela fórmula:
+                                </p>
+                                <p><div class="card-image">
+                                    <img id="soma da pa" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAApCAYAAAD3XU36AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAABGJhU0UAAAAdoyL+RwAAArhJREFUeNrtW0EoRUEUnSQL/ZSFLOwkSZKSZCUbSbaShSQbSRZSkiRJWUl2FhaSlJVsJelnKyvZSJIslPSTflLc8e9oPH/+f+//8d77d+6pU8/zmHvveTN35s48IUoHlcBP4LOghyn0rUswfvCJpIol9K+RpRZiFoPRxi81fSQwCMcO+NqGvs65LHhU+S2q3ibbfOfcnR29wBNgGviG1w0RCW7LllWf7er2dQOT2HYKuA2sLmXBH/I4rfMiIsFt2TIUUPAhQ9uHpSz4veF3e8BmvO7BZz8iEtyWLf0BBU+huE2eF+adouA28+6ToafofAhhDhBU8B1qs31ToOXsfRPzpVeYsHu4TVuCDunlFAXPZvwu3h8BVhiercMAyl5w84+C+7HFL1YKmLSRElwtyzo999NaMUa+5dOao2qGKkeGgwIDEORv/Nhie1lGVnBT4eXaM3Re4gQmm7P/LbgfW9T1JPAR+CL+llFV4WXec38/iz1kBZdQpdV27V47Blb2hiNgDXBc621hBsCPLcqGRWAtXm/5tNM5wYt1Ig4ByCeY2jxpEIxvFLM9GnfBpw3zFAbhHh46JrU8lMK80cWC0xR8Pkd1iYLQcfApVoK/YOMzwDIsHgwCTzkb0IRaPiQ4FG5gWysY9Fn4f7Y3IhiWkfAs7m+BC8AqDg1ttAI3tJwuS4AtMZpsMQtn3iLHOj54zkO6GyhDYdIcCnqQB+DGRGb/WGDuVj38hsNDD7mG3mHPM7m29xglAlm039FyryytHojfxXw/23sMgqOA6WcX0IE1izuR2XOQZ9jkwYwBFty91DfBgtPDmcgcVKzRJrerWs2CBeflKwtODaPC/EEAg1jPXkaxk4L3HUhDfil6hWKvofgMohhEoeXSrJXDQRv1wFeROTnLx4kdgPpsqY9D4QaK2nNmsOCh4wsrMew2f/7jGAAAAft0RVh0TWF0aE1MADxtYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj48bXN1Yj48bWkgbWF0aHZhcmlhbnQ9ImJvbGQiPlM8L21pPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+bjwvbWk+PC9tc3ViPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+PTwvbW8+PG1mcmFjPjxtcm93PjxtbyBtYXRodmFyaWFudD0iYm9sZCI+KDwvbW8+PG1zdWI+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5hPC9taT48bW4gbWF0aHZhcmlhbnQ9ImJvbGQiPjE8L21uPjwvbXN1Yj48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPis8L21vPjxtc3ViPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+YTwvbWk+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5uPC9taT48L21zdWI+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4pPC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPi48L21vPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+bjwvbWk+PC9tcm93PjxtbiBtYXRodmFyaWFudD0iYm9sZCI+MjwvbW4+PC9tZnJhYz48L21hdGg+5sxGNwAAAABJRU5ErkJggg==" alt="">
+                                    </div>
+                                </p>
+                                <p>Onde, n é o número de termos da sequência, a1 é o primeiro termo e an é o enésimo termo. A fórmula é útil para resolver questões em que é dado o primeiro e o último termo.
+                                </p>
+                                <p> <a href="https://www.youtube.com/watch?v=yLCtLp-VcZg&ab_channel=EquacionaComPauloPereira"> Vídeo</a>
+                                </p>
+                                <p> <h5 class="subtitulo">Progreção Geométrica (PG):</h5>
+                                    <p>
+                                        Uma progressão geométrica é formada quando uma sequência tem um fator multiplicador resultado da divisão de dois termos consecutivos, chamada de razão comum, que é calculada por:
+                                        <div class="card-image">
+                                            <img id="razão da pg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAApCAYAAABju+QIAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAABGJhU0UAAAAY00gKyAAAAZlJREFUeNrtmbFLw1AQxh8iRcRFJIM4uIiDOAidxKkgTg5uTk6Co3v/C+nqJFIKHTsUF/EfEBGnLg4OxUFw6CChFOIX/EqejyRNqBT77j74ILxM+XH37i5nzPzrCL6HQ/iLz1tGuKIUP0mH0oR3+FwjlJFRpUaOWK3ADd4lbgqJ1S0BnMGVjEg5hh/gITyAr+E1n6GEBLAHL8KXFpRV687Z5vMF33V9htJzUuaZ0ZCVQgs8D32GUiWIODU6cACfWxHkqsLzF61HieoEWFMUSQ/zyQ5YBa3Dd9r+JzqB3+FNRZE/G0WKZQptsEMcsKQ1WeIepZINmHduiPVYwspA+cgJ2bH78wClYTU1uzyLL6YryTn4xg+v/tNRPJqRf2mU8+GR1PQZzwqBc74sOX26/PC2BeaAw5ZYKPsZYd6S3uwcmp+/4EMOTnHlWdIO8G8uWoUiVaHx/PedL9JVacEOV1elRlelWgwmSVelKSqyKo1/mJ3CN/CrlBZh0qq0zzlOTASVWZWKgVJmVarduFYlhaJQFMoMZ6PCcL4BLXPk8WxYyNoAAAGJdEVYdE1hdGhNTAA8bWF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMTk5OC9NYXRoL01hdGhNTCI+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5xPC9taT48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPiYjeEEwOzwvbW8+PG1vIG1hdGh2YXJpYW50PSJib2xkIj49PC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPiYjeEEwOzwvbW8+PG1mcmFjPjxtc3ViPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+YTwvbWk+PG1uIG1hdGh2YXJpYW50PSJib2xkIj4yPC9tbj48L21zdWI+PG1yb3c+PG1zdWI+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5hPC9taT48bW4gbWF0aHZhcmlhbnQ9ImJvbGQiPjE8L21uPjwvbXN1Yj48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPiYjeEEwOzwvbW8+PC9tcm93PjwvbWZyYWM+PC9tYXRoPoASrVAAAAAASUVORK5CYII=" alt="">
+                                            </div>
+                                </p>
+                                <P>Onde,
+
+                                    q é a razão da PG,
+                                    a2 é o segundo termo,
+                                    a1 é o primeiro termo.</P>
+                                <p>
+                                    Uma progressão geométrica de n termos pode ser representada da seguinte forma:
+                                    <div class="card-image">
+                                        <img id="razão da pa" src="data:image/png;base64,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YW50PSJib2xkIj4xPC9tbj48L21zdWI+PG1zdXA+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5xPC9taT48bW4gbWF0aHZhcmlhbnQ9ImJvbGQiPjQ8L21uPjwvbXN1cD48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPiw8L21vPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+JiN4QTA7PC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPi48L21vPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+LjwvbW8+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4uPC9tbz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPiw8L21vPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+JiN4QTA7PC9tbz48bXN1Yj48bWkgbWF0aHZhcmlhbnQ9ImJvbGQiPmE8L21pPjxtbiBtYXRodmFyaWFudD0iYm9sZCI+MTwvbW4+PC9tc3ViPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+LjwvbW8+PG1zdXA+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5xPC9taT48bXJvdz48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPig8L21vPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+bjwvbWk+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4tPC9tbz48bW4gbWF0aHZhcmlhbnQ9ImJvbGQiPjE8L21uPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+KTwvbW8+PC9tcm93PjwvbXN1cD48L21hdGg+0q/ZAQAAAABJRU5ErkJggg==" alt="">
+                                        </div>
+                                    <p>Sendo a1 o primeiro termo, o termo geral da PG é calculado por a1.q(n-1).
+                                    </p>
+                                    <p>Tipos de PG:
+                                    </p>
+                                    <p>De acordo com o valor da razão (q), podemos classificar as Progressões Geométricas em 4 tipos:
+                                    </p>
+                                    <p>1º Constante: a razão é sempre igual a 1 e os termos possuem o mesmo valor.
+                                    </p>
+                                    <p>Exemplo:
+                                    </p>
+                                    <p>PG = (2, 2, 2, 2, 2, ...), onde q = 1
+                                    <p>2º crescente: com a razão q > 1 e termos positivos ou, 0 < q < 1 e termos negativos;
+                                    </p>
+                                    <p>Exemplo:
+                                    </p>
+                                    <p>PG: (3, 9, 27, 81, ...), onde q = 3
+                                    </p>
+                                    <p>PG: (-90, -30, -15, -5, ...), onde q = 1/3
+                                    </p>
+                                    <p>3º Decrescente: com a razão q > 1 e termos negativos ou, 0 < q < 1 e os termos positivos;
+                                    </p>
+                                    <p>Exemplo:
+                                    </p>
+                                    <p> PG: (-3, -9, -27, -81, ...), onde q = 3
+                                    </p>
+                                    <p>PG: (90, 30, 15, 5, ...), onde q = 1/3
+                                    </p>
+                                    <p>4º oscilante: a razão é negativa (q < 0) e os termos são números negativos e positivos;
+                                    </p>
+                                    <p>Exemplo:
+                                    </p>
+                                    <p> PG: (3, -6, 12, -24, 48, -96, …), onde q = - 2
+                                    </p>
+                                    <p>
+                                    </p>
+                                    <p>Soma dos termos de uma PG é calculada pela formula:
+                                    </p>
+                                    <p><div class="card-image">
+                                        <img id="soma da pg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAsCAYAAACue3wzAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAABGJhU0UAAAAdoyL+RwAAAupJREFUeNrtWz1IHEEUHkSCyCGkOCwsbMRCJAgW4bASRMQ+iIWF2IlYBEFEJIXYithZWIiIcKWFTQgpQjoRsbpGRERSBA6xCEsQzjf4FvfWm72Zu9m9ebPvgw/2Zm9/5n0789683SdEvtALrAGrLRxbQy4D/wAfgcMd7MsK3k9JMN6J1M6xW8B+3D7ocH++4X0Ms7RCrKExxiw9HO08LDoYAM4Bj4A3KT203qCARvhucfSnbdhajCqM4f71PAtsw19lLXAFuKt5Hbn/P2WBpoE/gAHwH24PWfK9cio8Bj7h+U+AReBFE0Gzmhp1rrNDfZquNeCl4fEPDdqLGBHHz13BEUFF4DnqAstRNYLbk9iZZ0Mj3Tdo38d918BRbBsE7jkUvOjcx6xvgZap8VUC3+G+ccvR6V/FrBPlAwv8FgHvo+/VjSx1p+jnhPNQGsGkp+hjvPkF4AdFp5utGVVGCrC9GGvvJSbwNmWBg0iCohu4Gun0R/yPHJ3lBGOEy6TPsfZzbC9HRJ4AXhETmPQyqRKblq9wSdOo4ypjqBIdJYV/PHVAYJXvViU6NqgKPI6iyif0DEfaUmRk6z7ta4qAagqXXPL8VYygewgJnKtUZbPOmhiDguHClw1DLHB98FT1QOBVRVyRa4FNg7vAJ+MsR3zdEwYapRwL7BU2DJy6y8JSvPdM8IgG+QrswoTCF+BPNo0fCJccBTaFnziMJBFmLJzPZrKdYQEFUZ+9uQVuAvvYNH7hk3jN5IQ+Wb4MH3UoaGLqMxEyIRB+D/Sbp2g/0YVCBGwK+vgFXBSv71UF+t5wBN+weegjaSqdj/3HldINhgFkwvoo4jtlqrIs6hPZLpZuMFIY5arfjGTolqKwwJ64QRbYM5iUorDAbU6VOqUqWdmRBbYIk1KV3AnsA1woVWGBU0SrpSpZl6IwWoQLpSoscIpwoVSFBU4RLpSqsMApopOlKvxhYEboVKkKC+zYOp/BAjOoRdjefb3yAkNbDKVl4pJZAAACJXRFWHRNYXRoTUwAPG1hdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTgvTWF0aC9NYXRoTUwiPjxtc3ViPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+UzwvbWk+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5uPC9taT48L21zdWI+PG1vIG1hdGh2YXJpYW50PSJib2xkIj49PC9tbz48bWZyYWM+PG1yb3c+PG1zdWI+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5hPC9taT48bW4gbWF0aHZhcmlhbnQ9ImJvbGQiPjE8L21uPjwvbXN1Yj48bW8gbWF0aHZhcmlhbnQ9ImJvbGQiPig8L21vPjxtc3VwPjxtaSBtYXRodmFyaWFudD0iYm9sZCI+cTwvbWk+PG1pIG1hdGh2YXJpYW50PSJib2xkIj5uPC9taT48L21zdXA+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4tPC9tbz48bW4gbWF0aHZhcmlhbnQ9ImJvbGQiPjE8L21uPjxtbyBtYXRodmFyaWFudD0iYm9sZCI+KTwvbW8+PC9tcm93Pjxtcm93PjxtaSBtYXRodmFyaWFudD0iYm9sZCI+cTwvbWk+PG1vIG1hdGh2YXJpYW50PSJib2xkIj4tPC9tbz48bW4gbWF0aHZhcmlhbnQ9ImJvbGQiPjE8L21uPjwvbXJvdz48L21mcmFjPjwvbWF0aD6rzflSAAAAAElFTkSuQmCC" alt="">
+                                        </div>
+                                    </p>
+                                    <p>Sendo a1 o primeiro termo, q a razão comum e n o número de termos.
+                                    </p>
+                                    <p> <a href="hhttps://www.youtube.com/watch?v=6h0NUyJHVC0&ab_channel=EquacionaComPauloPereira"> Vídeo</a>
+                                </p>
+                                <p> <h5 class="subtitulo">Função Afim:</h5>
+                                    <p>
+                                     A função afim, também chamada de função do 1º grau, é uma função f : ℝ→ℝ, definida como f(x)= ax + b,sendo a  e  b números reais.
+                                    </p>
+                                </p>
+                                <P>Exemplo:</P>
+                                <p>
+                                    Construa o gráfico da função f (x) = 2x + 3.
+                                    <p> 
+                                    Para construir o gráfico desta função, vamos atribuir valores arbitrários para x, substituir na equação e calcular o valor correspondente para a f (x).
+    
+                                    Sendo assim, iremos calcular a função para os valores de x iguais a: - 2, - 1, 0, 1 e 2. 
+                                    </p>
+                                    <p> Substituindo esses valores na função, temos:
+                                    </p>
+                                    <p> f (- 2) = 2. (- 2) + 3 = - 4 + 3 = - 1
+                                    </p>
+                                    <p> f (- 1) = 2 . (- 1) + 3 = - 2 + 3 = 1
+                                    </p>
+                                    <p>f (0) = 2 . 0 + 3 = 3
+                                    </p>
+                                    <p>  f (1) = 2 . 1 + 3 = 5
+                                    </p>
+                                    <p>f (2) = 2 . 2 + 3 = 7
+                                    </p>
+                                    <p>Os pontos escolhidos e o gráfico da f (x) são apresentados na imagem abaixo:
+                                    </p>
+                                    <p><div class="card-image">
+                                    <img id="grafico da função" src="https://static.todamateria.com.br/upload/gr/af/graficofuncaoafim1.jpg" alt="">
+                                    </div>
+                                   
+                                    <a href="https://www.youtube.com/watch?v=R8UZRBFWJXY&ab_channel=EquacionaComPauloPereira"> Vídeo</a>
+                                </p>
+
+                        <h5 class="subtitulo">Identificação de função atravez do gráfico:</h5>
+                            <p>
+                                Para determinar a lei de formação de uma função através do gráfico, precisamos conhecer o tipo da função (se for uma das básicas) ou ter alguma informação extra sobre sua expressão se for uma função desconhecida.
+                            </p>
+                            <p>
+                                Uma vez que tivermos uma fórmula, devemos impor as condições do gráfico, substituindo o x
+                                e o y=f(x)
+                                para cada ponto que pertence a função. Isso nos dará um sistema, possivelmente linear, que permitirá determinar os parâmetros e encontrar a expressão da função
+                            </p>
+                            <p> Exemplo:
+                            </p>
+                            <p><div class="card-image">
+                            <img id="grafico da função" src="http://www.matika.com.br/img/funcoes/afim/01_encontre_a_lei_de_formacao_da_funcao_afim.svg" alt="">
+                            </div>
+                            </p>
+                            <p>Como o gráfico é uma reta, a função f
+                                tem que seguir a expressão f(x) = ax + b 
+                            </p>
+                            <p>Pelo gráfico, vemos que a reta passa no ponto A = (3,5)
+                                . Isto quer dizer que quando x = 3
+                                 então o f(x) = 5
+                                . Ou seja, vamos impor esta condição substituindo o x
+                                 por 3
+                                 e o f(x)
+                                 por 5
+                                . Aí escrevemos:</p>
+                                <P>f(x) = ax + b</P>
+                                <p>5 = a⋅3 + b</p>
+                                <p>5 = 3a + b</p>
+                                <p>E aí temos nossa primeira equação.</p>
+                                <p>Fazendo a mesma coisa para o ponto B=(−4,0)
+                                    , obtemos:</p>
+                                <p>f(x) = ax + b</p>
+                                <p>0 = a⋅(−4) + b</p>
+                                <p>0 = -4a + b</p> 
+                                <p>E aí temos nossa segunda equação. Ou seja, chegamos no sistema abaixo:</p>
+                                <p>3a + b = 5  (I)</p>
+                                <p>-4a + b = 0 (II)</p>
+                                <p>resolvendo pelo metodo de subtração (adição).Fazendo pela diferença da primeira pela segunda fica :</p>
+                                <p>(3a - (-4a)) + (b - b) = 5 - 0</p>
+                                <p>        3a + 4a + 0 = 5</p>
+                                <p>                 7a = 5</p>
+                                <p>                  a = 5/7</p>
+                                <p>com o a = 5/7
+                                    , podemos encontrar o valor de  b
+                                     substituindo na segunda equação:</p>
+                                <p>-4a + b = 0</p>
+                                <p>-4 . 5/7 + b = 0</p>
+                                <p>b = 5/7 x + 20/7</p>
+                                <p>Então a expressão da função  f é:</p>
+                                <p> f(x) = 5/7 x + 20/7</p>
+                                 
+                                <p>  <a href="https://www.youtube.com/watch?v=HVY6EyNWbrw&ab_channel=EquacionaComPauloPereira"> Vídeo</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="">
+			<div class="upper">
+
+				<div class="img">
+                    <a href="index.html"><img src="images/logo-estado.png" alt="" /></a>
+				</div>
+			</div>
+			
+				
+			</div>
+		</footer>
+        
+        <script src="javascript/mobile.js"></script>
+    </body>
+</html>

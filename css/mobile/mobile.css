@@ -1,0 +1,38 @@
+@media screen and (max-width: 1450px) {
+    #fluxograma_aula2 img{
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    #fluxograma_aula2 img{
+        width: 50%;
+    }
+    .card-start img{
+        width: 60%;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .card.card.large h2{
+        padding: 0rem;
+    }
+
+    #computador_antigo{
+        width: 20%;
+    }
+
+    #logo_exemplos{
+        width: 30%;
+
+    }
+
+    #fluxograma_aula2 img{
+        width: 100%;
+    }
+}
+
+

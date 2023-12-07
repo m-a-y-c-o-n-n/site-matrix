@@ -1,0 +1,28 @@
+.card-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.card-start{
+    width: 100%;
+    display: flexbox;
+    justify-content: start;
+
+    margin-left: 15px;
+ 
+}
+
+.logopy{
+    width: 100px;
+}
+
+.space{
+    margin-left: 15px;
+}
+
+.concatec{
+    width: 500px;
+}

@@ -1,0 +1,38 @@
+.mobile .card.medium {
+    height: auto;
+}
+
+.mobile .card.medium h2{
+   font-size: 2.5rem;
+}
+
+.mobile .cronograma.recolhido .cronograma-content{
+    display: none;
+}
+
+.mobile .cronograma-content{
+
+    flex-direction: column;
+}
+
+.mobile .cronograna-aula {
+    width: 100%;
+    height: 5rem;
+}
+
+.mobile .cronograna-aula a{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.mobile .reticences{
+    display: none;
+}
+
+.mobile .botao-expandir{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
